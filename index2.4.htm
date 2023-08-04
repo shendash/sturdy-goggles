@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Кнопки на странице.</title>
+</head>
+<body>
+    <p><input value = "Работает?"  onclick = "alert('Работает.Не трогай!')" type = "button"></p>
+     <p><input value = "Хм" onclick = "task( )" type = "button"></p>
+    <script>
+         var task1 = ["Привет!","Как дела?","Чем занимаешься?"];
+        function task ()
+        {
+           for(var i = 0; i < task1.length; i++)
+           {
+              alert(task1[i]);
+           }
+        }
+     </script>
+</body>
+</html>
